@@ -9,8 +9,6 @@ class Database {
     private $password ="";
     private $connected = false;
 
-    
-
     private $pdo;
 
     function __construct($databaseName, $databaseHost, $databaseUser, $databasePassword){
